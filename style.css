@@ -21,6 +21,9 @@ body {
   background-color: blueviolet;
   /* border: 1px solid #000000; */
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -30,6 +33,17 @@ body {
   width: 50%;
   padding: 5px;
   margin: 0 auto;
+}
+
+.score > p.display-2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .summary {
